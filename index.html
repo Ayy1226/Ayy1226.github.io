@@ -1,31 +1,95 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-       <style>
-           html,body{margin:0;padding:0}
-        </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin: 0;padding: 0;}
+        #large{width: 1200px;height: 700px;border: 2px solid gray;margin: auto;}
+        #classroom{width: 1025px;height: 700px;margin: auto;border: 2px solid pink;}
+        .fangkuai{width: 100px;height: 80px;line-height: 80px;float: left;border: 1px solid gray;text-align: center;margin: 10px 0px 0px 10px;}
+        .sjtop{width: 200px;height: 50px;margin: 10px auto;border: 1px solid palevioletred;text-align: center;line-height: 50px;font-size: 38px;font-weight: 600;}
+    </style>
 </head>
-<body>
-          <div style="width:1024px;height:auto;border:2px solid #CCCCFF;margin:auto;background-color: 	#FFCCCC;">
-                  <div style="width:999px;height:100px;border:1px solid gray;margin:10px;font-size: 85px;text-align: center;background-color: lightpink;font-style:italic;font-weight: 500;color: aliceblue;">悦悦小天地</div>
-                  <div style="width:999px;height:200px;border:1px solid gray;margin:10px;color: whitesmoke;">美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女美女
-                        
-                
-                </div>
-                        
-                                <div style="width:1000px;height:790px;border:1px solid gray;margin:10px;">
-                                        
-                                         <img style="width: 900px;height: 790px;margin-left: 50px;" src="yy.PNG">
 
-                        
-                        
-                                </div>
-                
-                
-                
-                
-                
-                
-                
-                </div>
+<body>
+    <div id="large">
+        <div id="classroom">
+            <div id="fangkuai"></div>
+        </div>
+    </div>
+    
 </body>
+<script>
+    var classList=[
+        {name:'申冀特老师',gender:'男',type:'老师',icon:'',number:'1101',positionId:'00'},
+        {name:'张洪铭',gender:'男',type:'老师',icon:'',number:'1101',positionId:'00'},
+        {name:'黄佳佳',gender:'男',type:'老师',icon:'',number:'1101',positionId:'00'},
+        {name:'黄鹤铭',gender:'男',type:'老师',icon:'',number:'1101',positionId:'00'},
+        {name:'刘浩彬',gender:'男',type:'老师',icon:'',number:'1101',positionId:'00'},
+        {name:'刘思航',gender:'男',type:'老师',icon:'',number:'1101',positionId:'00'},
+        {name:'王泽漫',gender:'男',type:'老师',icon:'',number:'1101',positionId:'00'},
+        {name:'陈坤',gender:'男',type:'老师',icon:'',number:'1101',positionId:'00'},
+        {name:'刘思博',gender:'男',type:'老师',icon:'',number:'1101',positionId:'00'},
+        {name:'李婷婷',gender:'男',type:'老师',icon:'',number:'1101',positionId:'00'},
+        {name:'罗伟超',gender:'男',type:'老师',icon:'',number:'1101',positionId:'00'},
+        {name:'杨梓蕾',gender:'男',type:'老师',icon:'',number:'1101',positionId:'00'},
+        {name:'林裕烨',gender:'男',type:'老师',icon:'',number:'1101',positionId:'00'},
+        {name:'周雪媚',gender:'男',type:'老师',icon:'',number:'1101',positionId:'00'},
+        {name:'林雅婷',gender:'男',type:'老师',icon:'',number:'1101',positionId:'00'},
+        {name:'郭浩杨',gender:'男',type:'老师',icon:'',number:'1101',positionId:'00'},
+        {name:'崔俊凯',gender:'男',type:'老师',icon:'',number:'1101',positionId:'00'},
+        {name:'熊倩瑜',gender:'男',type:'老师',icon:'',number:'1101',positionId:'00'},
+        {name:'李寒星',gender:'男',type:'老师',icon:'',number:'1101',positionId:'00'},
+        {name:'黄慧贤',gender:'男',type:'老师',icon:'',number:'1101',positionId:'00'},
+        {name:'黄文壕',gender:'男',type:'老师',icon:'',number:'1101',positionId:'00'},
+        {name:'廖文涛',gender:'男',type:'老师',icon:'',number:'1101',positionId:'00'},
+        {name:'邱培楠',gender:'男',type:'老师',icon:'',number:'1101',positionId:'00'},
+        {name:'梁家宝',gender:'男',type:'老师',icon:'',number:'1101',positionId:'00'},
+        {name:'曾亮懿',gender:'男',type:'老师',icon:'',number:'1101',positionId:'00'},
+        {name:'童梓朋',gender:'男',type:'老师',icon:'',number:'1101',positionId:'00'},
+        {name:'陈耿豪',gender:'男',type:'老师',icon:'',number:'1101',positionId:'00'},
+        {name:'陈冠宇',gender:'男',type:'老师',icon:'',number:'1101',positionId:'00'},
+        {name:'黄增雄',gender:'男',type:'老师',icon:'',number:'1101',positionId:'00'},
+        {name:'杨彩玉',gender:'男',type:'老师',icon:'',number:'1101',positionId:'00'},
+        {name:'李晔',gender:'男',type:'老师',icon:'',number:'1101',positionId:'00'},
+        {name:'范杰豪',gender:'男',type:'老师',icon:'',number:'1101',positionId:'00'},
+        {name:'卢淑玲',gender:'男',type:'老师',icon:'',number:'1101',positionId:'00'},
+        {name:'吴羿瑾',gender:'男',type:'老师',icon:'',number:'1101',positionId:'00'},
+        {name:'连志威',gender:'男',type:'老师',icon:'',number:'1101',positionId:'00'},
+        {name:'黄家铭',gender:'男',type:'老师',icon:'',number:'1101',positionId:'00'},
+        {name:'胡美玲',gender:'男',type:'老师',icon:'',number:'1101',positionId:'00'},
+        {name:'朱声宁',gender:'男',type:'老师',icon:'',number:'1101',positionId:'00'},
+        {name:'敖琪涛',gender:'男',type:'老师',icon:'',number:'1101',positionId:'00'},
+        {name:'温炫威',gender:'男',type:'老师',icon:'',number:'1101',positionId:'00'},
+        {name:'靳长辉',gender:'男',type:'老师',icon:'',number:'1101',positionId:'00'},
+        {name:'陈锐锋',gender:'男',type:'老师',icon:'',number:'1101',positionId:'00'},
+        
+    ];
+    var positionList=[
+        {id:'99',x:'9',y:'9',ipaddress:'10.1.25.41',port:'90',positionId:'00'}
+    ];
+    var teacher=document.createElement('div');
+    var older=document.getElementById('classroom');
+    teacher.className="sjtop";
+    teacher.innerHTML=classList[0].name;
+    older.appendChild(teacher);
+    for(var i=1;i<classList.length;i++){
+        var odiv=document.createElement('div');
+        var odive=className="fangkuai";
+        older.appendChild(odiv);
+        odiv.innerHTML=classList[i].name;
+        var s=i-1;
+        if(s & 4==0){
+            odiv.style.marginLeft="50px";
+        }
+    }
+    // var att=document.getElementsByClassName("fangkuai")[41];
+    // att.onclick=function(){
+    //     window.open('backhome.html');
+    // }
+
+</script>
 </html>
